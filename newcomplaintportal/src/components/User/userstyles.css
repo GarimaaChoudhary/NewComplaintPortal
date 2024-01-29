@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    
+    height: 100vh;
+    width:100vw !important;
+   
+    
+  }
+  
+  .sidebar {
+    width: 15%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    height: 100%;
+    position: sticky;
+    top: 0;
+    background-color:whitesmoke
+    
+   
+    
+    
+  }
+  
+.content {
+    width: 85%;
+    margin-left: 3px;
+    
+  }
+
+  .logout-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    border:none;
+  }
+  .logout-container button {
+    border: none !important;
+    outline: none;
+  }
+  
